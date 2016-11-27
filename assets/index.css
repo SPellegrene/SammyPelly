@@ -12,17 +12,16 @@ body, html {
 
 .header {
   /*outline: 2px solid red;*/
-  display: flex;
-  flex-direction: row;
   width: 100%;
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .twitter-logo {
-  margin-left: 9rem;
-  height: 1rem;
-  width: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .twitter-handle {
@@ -30,7 +29,7 @@ body, html {
   color: #5B5B5B;
   font-size: 18px;
   font-weight: lighter;
-  margin-left: .5rem;
+  margin: 0 auto;
 }
 
 .first-section {
