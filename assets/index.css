@@ -118,6 +118,14 @@ body, html {
   margin-top: 1rem;
 }
 
+.third-section {
+  /*outline: 2px solid red;*/
+  display: flex;
+  flex-direction: column;
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+
 .coding-relationships {
   /*outline: 2px solid red;*/
   height: 10rem;
