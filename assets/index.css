@@ -64,6 +64,7 @@ body, html {
   justify-content: center;
   border-bottom: 1px solid #C0BFBF;
   border-top: 1px solid #C0BFBF;
+  margin-bottom: 1rem;
 }
 
 .section-divider-words {
@@ -122,6 +123,13 @@ body, html {
   height: 10rem;
   display: flex;
   align-items: center;
+}
+
+.coding-description {
+  /*outline: 2px solid red;*/
+  color:#383838;
+  letter-spacing: .05rem;
+  font-size: 16px;
 }
 
 .code-images {
