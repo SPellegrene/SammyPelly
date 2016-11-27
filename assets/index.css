@@ -22,6 +22,7 @@ body, html {
   margin-left: 9rem;
   height: 1rem;
   width: 1rem;
+  cursor: pointer;
 }
 
 .twitter-handle {
@@ -66,6 +67,7 @@ body, html {
 }
 
 .section-divider-words {
+  text-align: center;
   color:#5B5B5B;
   font-size: 24px;
   letter-spacing: .1rem;
@@ -99,4 +101,73 @@ body, html {
   border-bottom: 1px solid #C0BFBF;
   width: 3rem;
   margin: 0;
+}
+
+.content-description {
+  /*outline: 2px solid red;*/
+  width: 17rem;
+  color:#383838;
+  letter-spacing: .05rem;
+  font-size: 16px;
+}
+
+.small-border-bottom {
+  border-bottom:1px solid #C0BFBF;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.coding-relationships {
+  /*outline: 2px solid red;*/
+  height: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+.code-images {
+  width: 4rem;
+  height: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.accomplishment-container {
+  /*outline: 2px solid red;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.accomplishment-title {
+  margin-bottom: 0;
+  font-family:'Rokkitt',serif;
+}
+
+.accomplishment-description {
+  color:#383838;
+  letter-spacing: .05rem;
+  font-size: 16px;
+}
+
+.footer {
+  border-top:1px solid #C0BFBF;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.social-icon a:hover {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  color: #FF8B22;
 }
