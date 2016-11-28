@@ -183,6 +183,7 @@ a {
   border-top:1px solid #C0BFBF;
   display: flex;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .social-icon {
@@ -200,4 +201,45 @@ a {
   margin-left: 1rem;
   cursor: pointer;
   color: #FF8B22;
+}
+
+.email-container {
+  /*outline: 2px solid green;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email {
+  border: 1px solid #ECECEC;
+  margin-top: 1rem;
+  display: flex;
+  height: 2rem;
+  color: #C0BFBF;
+  font-size: 16px;
+  width: 15rem;
+  background-color: #BFE5FD;
+  border-radius: 5px;
+}
+
+.message {
+  display: flex;
+  border-radius: 5px;
+  margin-top: 1rem;
+  height: 8rem;
+  font-size: 14px;
+  width: 15rem;
+  border: 1px solid #ECECEC;
+  background-color: #BFE5FD;
+}
+
+.send-button {
+  border: 1px solid #ECECEC;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  width: 4rem;
+  height: 2rem;
+  border-radius: 3px;
+  background-color:#FFFFFF;
 }
