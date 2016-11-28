@@ -48,6 +48,12 @@ a {
   align-items: center;
 }
 
+.sam-pic {
+  border-radius: 3px;
+  margin-bottom: 2rem;
+  box-shadow:3px 3px 1px lightgrey;
+}
+
 .Sam-Pellegrene {
   text-align: center;
   margin: 0 auto;
@@ -164,7 +170,7 @@ a {
 
 .accomplishment-title {
   margin-bottom: 0;
-  font-family:'Rokkitt',serif;
+  font-family: 'Roboto',sans-serif;
 }
 
 .accomplishment-description {
