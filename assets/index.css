@@ -86,7 +86,7 @@ main-container {
   color:#5B5B5B;
   font-size: 24px;
   font-weight: lighter;
-  font-family: 'Rokkitt',serif;
+  font-family: 'Roboto',sans-serif;
 }
 
 .section-divider {
@@ -121,7 +121,7 @@ main-container {
 }
 
 .content-title {
-  color:#5B5B5B;
+  color: #989898;
   font-size: 16px;
   font-weight: lighter;
   margin-top: 1rem;
@@ -141,6 +141,8 @@ main-container {
   color:#383838;
   letter-spacing: .05rem;
   font-size: 16px;
+  font-weight: lighter;
+  font-family: 'Roboto',sans-serif;
 }
 
 .project-container {
@@ -296,8 +298,7 @@ form {
   text-align: center;
   font-family: 'Roboto',sans-serif;
   margin-bottom: 0;
-  color: #3B3B3B;
-}
+  color: #989898}
 .phone-number {
   display: flex;
   flex-direction: column;
@@ -355,7 +356,7 @@ form {
   .accomplishment-description {
     color:#383838;
     letter-spacing: .05rem;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: lighter;
     font-family: 'Roboto',sans-serif;
     margin-top:.5rem;
