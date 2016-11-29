@@ -159,6 +159,7 @@ main-container {
   height: 10rem;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 .coding-description {
@@ -166,14 +167,16 @@ main-container {
   color:#383838;
   letter-spacing: .05rem;
   font-size: 16px;
+  font-weight: lighter;
+  font-family: 'Roboto',sans-serif;
   margin: 0;
-  width: 12rem;
+  width: 14rem;
 }
 
 .code-images {
   width: 4rem;
   height: 4rem;
-  margin-left: 2rem;
+  margin-left: .5rem;
   margin-right:1rem;
 }
 
