@@ -150,12 +150,12 @@ main-container {
   /*outline: 2px solid red;*/
   display: flex;
   flex-direction: column;
-  margin-top:1rem;
+  align-items: center;
   margin-bottom:1rem;
 }
 
 .coding-relationships {
-  /*outline: 2px solid red;*/
+  /*outline: 2px solid blue;*/
   height: 10rem;
   display: flex;
   align-items: center;
@@ -166,33 +166,39 @@ main-container {
   color:#383838;
   letter-spacing: .05rem;
   font-size: 16px;
+  margin: 0;
+  width: 12rem;
 }
 
 .code-images {
   width: 4rem;
   height: 4rem;
   margin-left: 2rem;
-  margin-right: 2rem;
+  margin-right:1rem;
 }
 
 .accomplishment-container {
   /*outline: 2px solid red;*/
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .accomplishment-title {
   margin-bottom: 0;
+  align-self: flex-start;
   font-family: 'Roboto',sans-serif;
-  color: #3B3B3B;
+  font-weight: lighter;
+  color: #989898;
 }
 
 .accomplishment-description {
   color:#383838;
   letter-spacing: .05rem;
   font-size: 16px;
+  font-weight: lighter;
   font-family: 'Roboto',sans-serif;
+  margin-top:.5rem;
 }
 
 footer {
