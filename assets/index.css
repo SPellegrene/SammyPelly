@@ -176,6 +176,7 @@ main-container {
   height: 10rem;
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
 }
 
 .coding-description {
@@ -271,7 +272,7 @@ form {
   font-family: sans-serif;
   margin-top: 1rem;
   height: 8rem;
-  font-size: 14px;
+  font-size: 16px;
   width: 15rem;
   border: 1px solid #ECECEC;
   background-color: #BFE5FD;
@@ -298,7 +299,9 @@ form {
   text-align: center;
   font-family: 'Roboto',sans-serif;
   margin-bottom: 0;
-  color: #989898}
+  color: #989898
+}
+
 .phone-number {
   display: flex;
   flex-direction: column;
@@ -311,8 +314,19 @@ form {
   margin-top: .5rem;
   font-family: 'Roboto',sans-serif;
   color: #3B3B3B;
-  text-decoration: underline;
+  border-bottom: 1px solid  #3B3B3B;
 }
+
+.email-link {
+  text-decoration:none;
+  color:#3B3B3B;
+  font-family: 'Roboto',sans-serif;
+  font-size: 22px;
+  border-bottom: 1px solid  #3B3B3B;
+  margin-bottom:2rem;
+  margin-top: .5rem;
+}
+
 
 @media (min-width:540px) {
 
@@ -371,4 +385,37 @@ form {
     font-size: 22px;
   }
 
+}
+
+@media (min-width:1000px) {
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .email {
+    border: 1px solid #ECECEC;
+    margin-top: 1rem;
+    display: flex;
+    height: 2rem;
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 20rem;
+    background-color: #BFE5FD;
+    border-radius: 3px;
+  }
+
+  .message {
+    display: flex;
+    border-radius: 3px;
+    font-family: sans-serif;
+    margin-top: 1rem;
+    height: 8rem;
+    font-size: 16px;
+    width: 20rem;
+    border: 1px solid #ECECEC;
+    background-color: #BFE5FD;
+  }
 }
