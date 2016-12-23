@@ -26,7 +26,6 @@ a {
   -moz-transition:color 300ms ease-out;
   -o-transition: color 300ms ease-out;
   transition:color 300ms ease-out;
-
 }
 
 main-container {
@@ -160,7 +159,7 @@ main-container {
 }
 
 .project-title {
-  color:#5B5B5B;
+  color:#2d527c;
   font-size: 18px;
   width: 100%;
   font-weight: lighter;
@@ -171,11 +170,11 @@ main-container {
 
 .content-border:hover .project-title {
   color: #C0BFBF;
-  /*-webkit-transition: color 300ms ease-out;
+  -webkit-transition: color 300ms ease-out;
   -moz-transition:color 300ms ease-out;
   -o-transition: color 300ms ease-out;
   transition:color 300ms ease-out;
-*/
+
 }
 
 .project-title:hover {
@@ -216,6 +215,21 @@ main-container {
   align-items: center;
   margin-bottom: 3rem;
   margin-top:.5rem;
+}
+
+.individual-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-description {
+  width: 12rem;
+  margin-left: 2rem;
+  color:#383838;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: 'Roboto',sans-serif;
 }
 
 /*.project-icon1 {
@@ -292,10 +306,11 @@ main-container {
 }
 
 footer {
-  border-top:1px solid #C0BFBF;
+  /*border-top:1px solid #C0BFBF;*/
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
   margin-bottom: 5rem;
+  width: 100%;
 }
 
 .social-icon {
@@ -489,7 +504,6 @@ form {
   .content-border {
     height:8rem;
     width: 10rem;
-    border: 1px solid #CEE8FA;
     border-radius: 5px;
     /*margin-left: 4rem;*/
   }
