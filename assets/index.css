@@ -22,19 +22,25 @@ if it's not present, don't show loader */
 
 a {
   text-decoration: none;
+  -webkit-transition: color 300ms ease-out;
+  -moz-transition:color 300ms ease-out;
+  -o-transition: color 300ms ease-out;
+  transition:color 300ms ease-out;
+
 }
 
 main-container {
   display: flex;
   flex-direction: column;
   background-color:#FFFFFF;
+  align-items: center;
 }
 
 .header {
   /*outline: 2px solid red;*/
-  width: 100%;
+  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-bottom: 1rem;
 }
 
@@ -96,6 +102,7 @@ main-container {
   border-bottom: 1px solid #C0BFBF;
   border-top: 1px solid #C0BFBF;
   margin-bottom: 1rem;
+  width: 90%;
 }
 
 .section-divider-words {
@@ -121,12 +128,68 @@ main-container {
 }
 
 .content-title {
-  color: #989898;
-  font-size: 16px;
+  color:#C0BFBF;
+  font-size: 18px;
+  width: 100%;
   font-weight: lighter;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   font-family: 'Roboto',sans-serif;
+  text-align: center;
+}
+
+.content-border {
+  /*outline: 2px solid red;*/
+  height:8rem;
+  width: 10rem;
+  border: 1px solid #2d527c;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.content-border:hover  {
+  display: flex;
+  justify-content: center;
+  height:8rem;
+  width: 10rem;
+  border: 1px solid #C0BFBF;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition:all 300ms ease-out ;
+  -o-transition: all 300ms ease-out;
+  transition:all 300ms ease-out;
+}
+
+.project-title {
+  color:#5B5B5B;
+  font-size: 18px;
+  width: 100%;
+  font-weight: lighter;
+  font-family: 'Roboto',sans-serif;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.content-border:hover .project-title {
+  color: #C0BFBF;
+  /*-webkit-transition: color 300ms ease-out;
+  -moz-transition:color 300ms ease-out;
+  -o-transition: color 300ms ease-out;
+  transition:color 300ms ease-out;
+*/
+}
+
+.project-title:hover {
+  color: #C0BFBF;
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Roboto',sans-serif;
+  margin-top: 3rem;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: color 300ms ease-out;
+  -moz-transition:color 300ms ease-out;
+  -o-transition: color 300ms ease-out;
+  transition:color 300ms ease-out;
 }
 
 .small-border {
@@ -143,19 +206,23 @@ main-container {
   font-size: 16px;
   font-weight: lighter;
   font-family: 'Roboto',sans-serif;
+  margin-bottom: 3rem;
 }
 
 .project-container {
+  /*width: 100%;*/
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 3rem;
+  margin-top:.5rem;
 }
 
-.project-image1 {
-  height: 12rem;
-  width:5rem;
-  margin-bottom: 1rem;
-}
+/*.project-icon1 {
+  position: absolute;
+  height: 5rem;
+  width: 20rem;
+}*/
 
 .small-border-bottom {
   border-bottom:1px solid #C0BFBF;
@@ -234,10 +301,11 @@ footer {
 .social-icon {
   width: 2rem;
   height: 2rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   cursor: pointer;
-  box-shadow: 2px 2px 1px lightgrey;
-  border-radius: 5px;
+  /*box-shadow: 2px 2px 1px lightgrey;*/
+  /*border-radius: 5px;*/
 }
 
 .email-container {
@@ -389,10 +457,69 @@ form {
 
 @media (min-width:1000px) {
 
+  main-container {
+    /*outline: 2px solid red;*/
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
   form {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .header {
+    /*outline: 2px solid red;*/
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+
+  .project-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+
+  .content-border {
+    height:8rem;
+    width: 10rem;
+    border: 1px solid #CEE8FA;
+    border-radius: 5px;
+    /*margin-left: 4rem;*/
+  }
+
+  .middle-section {
+    /*outline: 2px solid blue;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .personal-content {
+    /*outline: 2px solid red;*/
+    width:20rem;
+  }
+
+  .content-description {
+    /*outline: 2px solid red;*/
+    width: 15rem;
+    color:#383838;
+    letter-spacing: .05rem;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Roboto',sans-serif;
+  }
+
+  .small-border-bottom {
+    display: none;
   }
 
   .email {
