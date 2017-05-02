@@ -82,6 +82,8 @@ main-container {
 .sam-pic {
   border-radius: 3px;
   margin-bottom: 2rem;
+  width:15rem;
+  height:20rem;
   box-shadow: 3px 3px 1px lightgrey;
 }
 
